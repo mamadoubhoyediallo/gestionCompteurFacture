@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#definition des roles
+
+RewriteRule ^acceuil$ acceuil.php
+RewriteRule ^factures$ view/facture/liste.php
+RewriteRule ^compteurs$ view/compteur/liste.php
+RewriteRule ^paiements$ view/paiement/liste.php
+RewriteRule ^ajax-compteurs$ view/compteur/ajax-compteur.php
+RewriteRule ^factureController$ controller/factureController.php
+RewriteRule ^paiementController$ controller/paiementController.php
+RewriteRule ^compteurController$ controller/compteurController.php
